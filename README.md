@@ -20,7 +20,7 @@ Bonus on top of rectifying 1 of each of the 6 vulnerabilities:
 4. Changed the cloudinary files in database to https instead of http by changing the seeddata.js file and the cloudinary upload image (uploadFile Function) in fileService.js by changing result.url to result.secure_url to remove the https warnings for future and current submissions.
 5. Used Bearer Token for all and not using user Id and role for user access control and authentication.
 6. Used Session-Storage instead of Local-Storage to delete token after user has closed the tab/browser instead of continuing to store it.
-7. Used express-rate-limit to limit the number of attempts for register page, email invitation page and login page to prevent brute forcing.
+7. Used express-rate-limit to limit the number of attempts for register page, login page, email invitation page and design submission page to prevent brute forcing.
 8. Created a check role from token to make sure that only user and admin can access their own sites without being able to access a web page that they don’t have access to through the URL Link.
 9. Used Try and Catch for all functions in authController.js and userController.js to handle all errors at the end to prevent callback hell.
 10. Standardized fileService.js, authService.js and userService.js to use Promise and declare SQL statement before the Promise.
