@@ -28,8 +28,8 @@ https://owasp.org/www-project-top-ten/2017/
 
 # .env file setup in backend directory:
 
-    DB_USERNAME=your_DBUsername_Here
-    DB_PASSWORD=your_DBPassword_Here
+    DB_USERNAME=esde_ca_adminuser
+    DB_PASSWORD=P@ssw0rd
     DB_DATABASE_NAME=ay2324s1_st0505_esde_ca
     JWTKEY=QSBKV1QgY29kZSBmb3IgQVkyMjIzczEgRVNERSBzdHVkZW50cw==
     
