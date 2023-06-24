@@ -27,23 +27,17 @@ Bonus on top of rectifying 1 of each of the 6 vulnerabilities:
 11. Used Standardized JSON Response for authController.js and userController.js.
 
 .env file setup in backend directory
-DB_USERNAME=your_DBUsername_Here
-DB_PASSWORD=your_DBPassword_Here
-DB_DATABASE_NAME=ay2324s1_st0505_esde_ca
-JWTKEY=QSBKV1QgY29kZSBmb3IgQVkyMjIzczEgRVNERSBzdHVkZW50cw==
-
-<<<<<<< HEAD
-DB_USERNAME=your_DBUsername_Here
-DB_PASSWORD=your_DBPassword_Here
-DB_DATABASE_NAME=ay2324s1_st0505_esde_ca
-JWTKEY=QSBKV1QgY29kZSBmb3IgQVkyMjIzczEgRVNERSBzdHVkZW50cw==
-
-CLOUDINARY_CLOUD_NAME=your_Cloudinary_Cloud_Name_Here
-CLOUDINARY_API_KEY=your_Cloudinary_API_Key_Here
-CLOUDINARY_API_SECRET=your_Cloudinary_API_Secret_Here
-
-MAILTRAP_USERNAME=your_Mailtrap_Username_Here
-MAILTRAP_PASSWORD=your_Mailtrap_Password_Here
+  DB_USERNAME=your_DBUsername_Here
+  DB_PASSWORD=your_DBPassword_Here
+  DB_DATABASE_NAME=ay2324s1_st0505_esde_ca
+  JWTKEY=QSBKV1QgY29kZSBmb3IgQVkyMjIzczEgRVNERSBzdHVkZW50cw==
+  
+  CLOUDINARY_CLOUD_NAME=your_Cloudinary_Cloud_Name_Here
+  CLOUDINARY_API_KEY=your_Cloudinary_API_Key_Here
+  CLOUDINARY_API_SECRET=your_Cloudinary_API_Secret_Here
+  
+  MAILTRAP_USERNAME=your_Mailtrap_Username_Here
+  MAILTRAP_PASSWORD=your_Mailtrap_Password_Here
 
 How to set up:
 
