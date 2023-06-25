@@ -26,7 +26,7 @@ https://owasp.org/www-project-top-ten/2017/
 10. Standardized fileService.js, authService.js and userService.js to use Promise and declare SQL statement before the Promise.
 11. Used Standardized JSON Response for authController.js and userController.js.
 
-# .env file setup in backend directory:
+# .env file setup in /backend directory:
 
     DB_USERNAME=esde_ca_adminuser
     DB_PASSWORD=P@ssw0rd
@@ -42,7 +42,12 @@ https://owasp.org/www-project-top-ten/2017/
 
 # How to set up:
 
-1. Make sure that you have created and filled in the above .env file first.
-2. Use the prepare_database_ca1.sql to set up databse in MySQL Workbench
-3. Populate the database with users, files and etc by CD'ing into backend folder and run the seeddata.js file.
-4. Finally run nodemon index.js in the respective backend and frontend folder and you are set.
+1. Gather the relevant cloudinary and mailtrap credentials.
+2. Make sure that you have created and filled in the above .env file first with the appropriate credentials.
+3. Use the prepare_database_ca1.sql to set up databse in MySQL Workbench.
+4. Populate the database with users, files and etc by CD'ing into backend folder and run the seeddata.js file.
+6. Finally run nodemon index.js in the respective backend and frontend folder and you are set.
+
+# Side Note:
+1. .env file must be created in the /backend directory before starting.
+2. The log folder must be created in the /backend directory folder, the respective all.log and error.log will be generated automatically upon running nodemon index.js to start the website to capture logs.
