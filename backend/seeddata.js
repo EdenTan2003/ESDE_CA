@@ -89,9 +89,9 @@ function createFileData(
       } else {
         let query = `INSERT INTO file ( cloudinary_file_id, cloudinary_url , 
                  design_title, design_description,created_by_id ) 
-                 VALUES ('${publicId}','${imageURL}','${designTitle}','${designDescription}','${userId}') `;
+                 VALUES (?, ?, ?, ?, ?) `;
 
-        connection.query(query, [], (err, rows) => {
+        connection.query(query, [publicId, imageURL, designTitle, designDescription, userId], (err, rows) => {
           if (err) {
             console.log(
               "Error on query on creating record inside file table",
