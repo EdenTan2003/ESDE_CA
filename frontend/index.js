@@ -3,7 +3,6 @@ const serveStatic = require("serve-static");
 const https = require("https");
 const fs = require("fs");
 
-var hostname = "localhost";
 var port = 3001;
 
 var app = express();
@@ -44,5 +43,5 @@ app.get("/", (req, res) => {
 // Create an HTTPS server with the 'credentials' for a secure connection
 const server = https.createServer(credentials, app);
 server.listen(port, hostname, function () {
-  console.log(`Server hosted at https://${hostname}:${port}`);
+  console.log(`Server hosted at https://localhost:${port}`);
 });
